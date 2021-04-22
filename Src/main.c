@@ -66,8 +66,8 @@ void EXTI0_1_IRQHandler( void )
 								}
 								else
 								if ( State.PSIO.DataIn == 0x01 )
-								{	// Команда активации джойстика
-
+								{	// Команда активации джойстика, нужно игнорировать любую активность до конца.
+									State.PSIO.Mode = mdDone;
 								}
 								// Выход
 								break;
