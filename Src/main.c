@@ -767,7 +767,7 @@ FunctionalState Card_FSInit( TSDCard *SDCard, const uint8_t *FName )
 				}
 				// Вычисляем LBA данных кластера
 				LBA = DataOrg + ((Cluster - 2) * ClustSize);
-				// В цикле по размерку кластера заполняем элементы таблицы
+				// В цикле по размеру кластера заполняем элементы таблицы
 				for (Cnt = 0;Cnt < ClustSize;Cnt++)
 				{	// Вычисляем LBA сектроа внутри кластера
 					SDCard->CardList[ Pos ] = LBA + Cnt;
