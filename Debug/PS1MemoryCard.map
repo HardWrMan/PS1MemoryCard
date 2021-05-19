@@ -1551,7 +1551,7 @@ LOAD d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v
                 0x08000000                g_pfnVectors
                 0x080000c0                . = ALIGN (0x4)
 
-.text           0x080000c0     0x32cc
+.text           0x080000c0     0x32d8
                 0x080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x48 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
@@ -1598,266 +1598,266 @@ LOAD d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v
                 0x080002a4       0x4c ./Src/main.o
                 0x080002a4                TIM3_IRQHandler
  .text.EXTI0_1_IRQHandler
-                0x080002f0      0x48c ./Src/main.o
+                0x080002f0      0x498 ./Src/main.o
                 0x080002f0                EXTI0_1_IRQHandler
  .text.EXTI2_3_IRQHandler
-                0x0800077c       0x78 ./Src/main.o
-                0x0800077c                EXTI2_3_IRQHandler
+                0x08000788       0x78 ./Src/main.o
+                0x08000788                EXTI2_3_IRQHandler
  .text.CheckOptions
-                0x080007f4       0x84 ./Src/main.o
-                0x080007f4                CheckOptions
+                0x08000800       0x84 ./Src/main.o
+                0x08000800                CheckOptions
  .text.Card_SendCMD
-                0x08000878       0xb8 ./Src/main.o
-                0x08000878                Card_SendCMD
+                0x08000884       0xb8 ./Src/main.o
+                0x08000884                Card_SendCMD
  .text.Card_SPI
-                0x08000930       0x4c ./Src/main.o
-                0x08000930                Card_SPI
+                0x0800093c       0x4c ./Src/main.o
+                0x0800093c                Card_SPI
  .text.Card_WaitResp
-                0x0800097c       0xba ./Src/main.o
-                0x0800097c                Card_WaitResp
- *fill*         0x08000a36        0x2 
+                0x08000988       0xba ./Src/main.o
+                0x08000988                Card_WaitResp
+ *fill*         0x08000a42        0x2 
  .text.Card_Init
-                0x08000a38      0x278 ./Src/main.o
-                0x08000a38                Card_Init
+                0x08000a44      0x278 ./Src/main.o
+                0x08000a44                Card_Init
  .text.Card_Read
-                0x08000cb0      0x1bc ./Src/main.o
-                0x08000cb0                Card_Read
+                0x08000cbc      0x1bc ./Src/main.o
+                0x08000cbc                Card_Read
  .text.Card_Write
-                0x08000e6c      0x150 ./Src/main.o
-                0x08000e6c                Card_Write
+                0x08000e78      0x150 ./Src/main.o
+                0x08000e78                Card_Write
  .text.Card_FSInit
-                0x08000fbc      0x484 ./Src/main.o
-                0x08000fbc                Card_FSInit
- .text.main     0x08001440      0x5f8 ./Src/main.o
-                0x08001440                main
+                0x08000fc8      0x484 ./Src/main.o
+                0x08000fc8                Card_FSInit
+ .text.main     0x0800144c      0x5f8 ./Src/main.o
+                0x0800144c                main
  .text.NMI_Handler
-                0x08001a38        0xa ./Src/stm32f0xx_it.o
-                0x08001a38                NMI_Handler
+                0x08001a44        0xa ./Src/stm32f0xx_it.o
+                0x08001a44                NMI_Handler
  .text.HardFault_Handler
-                0x08001a42        0x6 ./Src/stm32f0xx_it.o
-                0x08001a42                HardFault_Handler
+                0x08001a4e        0x6 ./Src/stm32f0xx_it.o
+                0x08001a4e                HardFault_Handler
  .text.SVC_Handler
-                0x08001a48        0xa ./Src/stm32f0xx_it.o
-                0x08001a48                SVC_Handler
+                0x08001a54        0xa ./Src/stm32f0xx_it.o
+                0x08001a54                SVC_Handler
  .text.PendSV_Handler
-                0x08001a52        0xa ./Src/stm32f0xx_it.o
-                0x08001a52                PendSV_Handler
+                0x08001a5e        0xa ./Src/stm32f0xx_it.o
+                0x08001a5e                PendSV_Handler
  .text.SysTick_Handler
-                0x08001a5c        0xe ./Src/stm32f0xx_it.o
-                0x08001a5c                SysTick_Handler
- *fill*         0x08001a6a        0x2 
+                0x08001a68        0xe ./Src/stm32f0xx_it.o
+                0x08001a68                SysTick_Handler
+ *fill*         0x08001a76        0x2 
  .text.HAL_Init
-                0x08001a6c       0x28 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001a6c                HAL_Init
+                0x08001a78       0x28 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001a78                HAL_Init
  .text.HAL_MspInit
-                0x08001a94        0xa ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001a94                HAL_MspInit
+                0x08001aa0        0xa ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001aa0                HAL_MspInit
  .text.HAL_InitTick
-                0x08001a9e       0x38 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001a9e                HAL_InitTick
- *fill*         0x08001ad6        0x2 
+                0x08001aaa       0x38 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001aaa                HAL_InitTick
+ *fill*         0x08001ae2        0x2 
  .text.HAL_IncTick
-                0x08001ad8       0x18 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001ad8                HAL_IncTick
+                0x08001ae4       0x18 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001ae4                HAL_IncTick
  .text.HAL_GetTick
-                0x08001af0       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001af0                HAL_GetTick
+                0x08001afc       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001afc                HAL_GetTick
  .text.HAL_Delay
-                0x08001b04       0x3a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
-                0x08001b04                HAL_Delay
- *fill*         0x08001b3e        0x2 
+                0x08001b10       0x3a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+                0x08001b10                HAL_Delay
+ *fill*         0x08001b4a        0x2 
  .text.NVIC_EnableIRQ
-                0x08001b40       0x2c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001b4c       0x2c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .text.NVIC_SetPriority
-                0x08001b6c       0xdc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001b78       0xdc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .text.SysTick_Config
-                0x08001c48       0x48 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001c54       0x48 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
  .text.HAL_NVIC_SetPriority
-                0x08001c90       0x2a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
-                0x08001c90                HAL_NVIC_SetPriority
+                0x08001c9c       0x2a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001c9c                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08001cba       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
-                0x08001cba                HAL_NVIC_EnableIRQ
+                0x08001cc6       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001cc6                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08001cda       0x1a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
-                0x08001cda                HAL_SYSTICK_Config
+                0x08001ce6       0x1a ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+                0x08001ce6                HAL_SYSTICK_Config
  .text.HAL_FLASH_Unlock
-                0x08001cf4       0x4c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
-                0x08001cf4                HAL_FLASH_Unlock
+                0x08001d00       0x4c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001d00                HAL_FLASH_Unlock
  .text.HAL_FLASH_Lock
-                0x08001d40       0x1c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
-                0x08001d40                HAL_FLASH_Lock
+                0x08001d4c       0x1c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001d4c                HAL_FLASH_Lock
  .text.HAL_FLASH_OB_Unlock
-                0x08001d5c       0x34 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
-                0x08001d5c                HAL_FLASH_OB_Unlock
+                0x08001d68       0x34 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001d68                HAL_FLASH_OB_Unlock
  .text.HAL_FLASH_OB_Lock
-                0x08001d90       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
-                0x08001d90                HAL_FLASH_OB_Lock
+                0x08001d9c       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001d9c                HAL_FLASH_OB_Lock
  .text.FLASH_WaitForLastOperation
-                0x08001db0       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
-                0x08001db0                FLASH_WaitForLastOperation
+                0x08001dbc       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001dbc                FLASH_WaitForLastOperation
  .text.FLASH_SetErrorCode
-                0x08001e30       0x60 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+                0x08001e3c       0x60 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
  .text.HAL_FLASHEx_OBErase
-                0x08001e90       0x9c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
-                0x08001e90                HAL_FLASHEx_OBErase
+                0x08001e9c       0x9c ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08001e9c                HAL_FLASHEx_OBErase
  .text.HAL_FLASHEx_OBProgram
-                0x08001f2c      0x128 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
-                0x08001f2c                HAL_FLASHEx_OBProgram
+                0x08001f38      0x128 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08001f38                HAL_FLASHEx_OBProgram
  .text.HAL_FLASHEx_OBGetConfig
-                0x08002054       0x38 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
-                0x08002054                HAL_FLASHEx_OBGetConfig
+                0x08002060       0x38 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002060                HAL_FLASHEx_OBGetConfig
  .text.FLASH_OB_EnableWRP
-                0x0800208c       0xd0 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002098       0xd0 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_DisableWRP
-                0x0800215c       0xcc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002168       0xcc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_RDP_LevelConfig
-                0x08002228       0xbc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002234       0xbc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_UserConfig
-                0x080022e4       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x080022f0       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_ProgramData
-                0x08002364       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002370       0x80 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_GetWRP
-                0x080023e4       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x080023f0       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_GetRDP
-                0x080023f8       0x34 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002404       0x34 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.FLASH_OB_GetUser
-                0x0800242c       0x18 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+                0x08002438       0x18 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
  .text.HAL_GPIO_Init
-                0x08002444      0x2d8 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
-                0x08002444                HAL_GPIO_Init
+                0x08002450      0x2d8 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
+                0x08002450                HAL_GPIO_Init
  .text.HAL_RCC_OscConfig
-                0x0800271c      0x6c0 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
-                0x0800271c                HAL_RCC_OscConfig
+                0x08002728      0x6c0 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+                0x08002728                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08002ddc      0x214 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
-                0x08002ddc                HAL_RCC_ClockConfig
+                0x08002de8      0x214 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+                0x08002de8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002ff0       0xfc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
-                0x08002ff0                HAL_RCC_GetSysClockFreq
+                0x08002ffc       0xfc ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+                0x08002ffc                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x080030ec       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
-                0x080030ec                HAL_RCC_GetHCLKFreq
+                0x080030f8       0x14 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+                0x080030f8                HAL_RCC_GetHCLKFreq
  .text.SystemInit
-                0x08003100       0x88 ./Lib/CMSIS/Device/system_stm32f0xx.o
-                0x08003100                SystemInit
+                0x0800310c       0x88 ./Lib/CMSIS/Device/system_stm32f0xx.o
+                0x0800310c                SystemInit
  .text.__libc_init_array
-                0x08003188       0x48 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-init.o)
-                0x08003188                __libc_init_array
- .text.memcmp   0x080031d0       0x4c d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-memcmp.o)
-                0x080031d0                memcmp
+                0x08003194       0x48 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-init.o)
+                0x08003194                __libc_init_array
+ .text.memcmp   0x080031dc       0x4c d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-memcmp.o)
+                0x080031dc                memcmp
  .text.startup.register_fini
-                0x0800321c       0x18 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08003234       0x10 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-atexit.o)
-                0x08003234                atexit
+                0x08003228       0x18 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08003240       0x10 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-atexit.o)
+                0x08003240                atexit
  .text.__libc_fini_array
-                0x08003244       0x34 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-fini.o)
-                0x08003244                __libc_fini_array
+                0x08003250       0x34 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-fini.o)
+                0x08003250                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08003278        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-lock.o)
-                0x08003278                __retarget_lock_acquire_recursive
+                0x08003284        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-lock.o)
+                0x08003284                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800327c        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-lock.o)
-                0x0800327c                __retarget_lock_release_recursive
+                0x08003288        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-lock.o)
+                0x08003288                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08003280       0xf4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__atexit.o)
-                0x08003280                __register_exitproc
+                0x0800328c       0xf4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__atexit.o)
+                0x0800328c                __register_exitproc
  *(.glue_7)
- .glue_7        0x08003374        0x0 linker stubs
+ .glue_7        0x08003380        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003374        0x0 linker stubs
+ .glue_7t       0x08003380        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003374        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x08003380        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(.init)
- .init          0x08003374        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
-                0x08003374                _init
- .init          0x08003378        0x8 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .init          0x08003380        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x08003380                _init
+ .init          0x08003384        0x8 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
  *(.fini)
- .fini          0x08003380        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
-                0x08003380                _fini
- .fini          0x08003384        0x8 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
-                0x0800338c                . = ALIGN (0x4)
-                0x0800338c                _etext = .
+ .fini          0x0800338c        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x0800338c                _fini
+ .fini          0x08003390        0x8 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+                0x08003398                . = ALIGN (0x4)
+                0x08003398                _etext = .
 
-.vfp11_veneer   0x0800338c        0x0
- .vfp11_veneer  0x0800338c        0x0 linker stubs
+.vfp11_veneer   0x08003398        0x0
+ .vfp11_veneer  0x08003398        0x0 linker stubs
 
-.v4_bx          0x0800338c        0x0
- .v4_bx         0x0800338c        0x0 linker stubs
+.v4_bx          0x08003398        0x0
+ .v4_bx         0x08003398        0x0 linker stubs
 
-.iplt           0x0800338c        0x0
- .iplt          0x0800338c        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x08003398        0x0
+ .iplt          0x08003398        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.rodata         0x0800338c       0xc0
-                0x0800338c                . = ALIGN (0x4)
+.rodata         0x08003398       0xc0
+                0x08003398                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0800338c       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+ .rodata        0x08003398       0x20 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
  *(.rodata*)
  .rodata.CARD_CMD0
-                0x080033ac        0x6 ./Src/main.o
- *fill*         0x080033b2        0x2 
+                0x080033b8        0x6 ./Src/main.o
+ *fill*         0x080033be        0x2 
  .rodata.CARD_CMD8
-                0x080033b4        0x6 ./Src/main.o
- *fill*         0x080033ba        0x2 
+                0x080033c0        0x6 ./Src/main.o
+ *fill*         0x080033c6        0x2 
  .rodata.CARD_CMD16
-                0x080033bc        0x6 ./Src/main.o
- *fill*         0x080033c2        0x2 
+                0x080033c8        0x6 ./Src/main.o
+ *fill*         0x080033ce        0x2 
  .rodata.CARD_CMD55
-                0x080033c4        0x6 ./Src/main.o
- *fill*         0x080033ca        0x2 
+                0x080033d0        0x6 ./Src/main.o
+ *fill*         0x080033d6        0x2 
  .rodata.CARD_CMD58
-                0x080033cc        0x6 ./Src/main.o
- *fill*         0x080033d2        0x2 
+                0x080033d8        0x6 ./Src/main.o
+ *fill*         0x080033de        0x2 
  .rodata.CARD_ACMD41
-                0x080033d4        0x6 ./Src/main.o
- *fill*         0x080033da        0x2 
+                0x080033e0        0x6 ./Src/main.o
+ *fill*         0x080033e6        0x2 
  .rodata.CARD_IMAGE
-                0x080033dc        0xb ./Src/main.o
- *fill*         0x080033e7        0x1 
+                0x080033e8        0xb ./Src/main.o
+ *fill*         0x080033f3        0x1 
  .rodata.EXTI0_1_IRQHandler
-                0x080033e8       0x50 ./Src/main.o
+                0x080033f4       0x50 ./Src/main.o
  .rodata.AHBPrescTable
-                0x08003438       0x10 ./Lib/CMSIS/Device/system_stm32f0xx.o
-                0x08003438                AHBPrescTable
+                0x08003444       0x10 ./Lib/CMSIS/Device/system_stm32f0xx.o
+                0x08003444                AHBPrescTable
  .rodata._global_impure_ptr
-                0x08003448        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-impure.o)
-                0x08003448                _global_impure_ptr
-                0x0800344c                . = ALIGN (0x4)
+                0x08003454        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-impure.o)
+                0x08003454                _global_impure_ptr
+                0x08003458                . = ALIGN (0x4)
 
-.rel.dyn        0x0800344c        0x0
- .rel.iplt      0x0800344c        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x08003458        0x0
+ .rel.iplt      0x08003458        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800344c        0x0
-                0x0800344c                __exidx_start = .
+.ARM            0x08003458        0x0
+                0x08003458                __exidx_start = .
  *(.ARM.exidx*)
-                0x0800344c                __exidx_end = .
+                0x08003458                __exidx_end = .
 
-.preinit_array  0x0800344c        0x0
-                0x0800344c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08003458        0x0
+                0x08003458                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800344c                PROVIDE (__preinit_array_end = .)
+                0x08003458                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0800344c        0x8
-                0x0800344c                PROVIDE (__init_array_start = .)
+.init_array     0x08003458        0x8
+                0x08003458                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0800344c        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__call_atexit.o)
+                0x08003458        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08003450        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x08003454                PROVIDE (__init_array_end = .)
+ .init_array    0x0800345c        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x08003460                PROVIDE (__init_array_end = .)
 
-.fini_array     0x08003454        0x4
-                0x08003454                PROVIDE (__fini_array_start = .)
+.fini_array     0x08003460        0x4
+                0x08003460                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003454        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x08003458                PROVIDE (__fini_array_end = .)
-                0x08003458                _sidata = LOADADDR (.data)
+ .fini_array    0x08003460        0x4 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x08003464                PROVIDE (__fini_array_end = .)
+                0x08003464                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x434 load address 0x08003458
+.data           0x20000000      0x434 load address 0x08003464
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1874,11 +1874,11 @@ LOAD d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v
                 0x20000434                . = ALIGN (0x4)
                 0x20000434                _edata = .
 
-.igot.plt       0x20000434        0x0 load address 0x0800388c
+.igot.plt       0x20000434        0x0 load address 0x08003898
  .igot.plt      0x20000434        0x0 d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
                 0x20000434                . = ALIGN (0x4)
 
-.bss            0x20000438      0x6fc load address 0x0800388c
+.bss            0x20000438      0x6fc load address 0x08003898
                 0x20000438                _sbss = .
                 0x20000438                __bss_start__ = _sbss
  *(.bss)
@@ -1907,7 +1907,7 @@ LOAD d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v
                 0x20000b34                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000b34      0x604 load address 0x0800388c
+                0x20000b34      0x604 load address 0x08003898
                 0x20000b38                . = ALIGN (0x8)
  *fill*         0x20000b34        0x4 
                 [!provide]                PROVIDE (end = .)
@@ -1974,17 +1974,17 @@ LOAD d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v
                 0x000003c0       0x1e d:/programs/eclipse/armtoolchain/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
 OUTPUT(PS1MemoryCard.elf elf32-littlearm)
 
-.debug_line     0x00000000     0x3c9b
+.debug_line     0x00000000     0x3c9e
  .debug_line    0x00000000       0x95 ./Startup/startup_stm32f042x6.o
- .debug_line    0x00000095      0x9f6 ./Src/main.o
- .debug_line    0x00000a8b      0x5ac ./Src/stm32f0xx_it.o
- .debug_line    0x00001037      0x69b ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
- .debug_line    0x000016d2      0x6ed ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
- .debug_line    0x00001dbf      0x6e7 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
- .debug_line    0x000024a6      0x725 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
- .debug_line    0x00002bcb      0x68e ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
- .debug_line    0x00003259      0x7ae ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
- .debug_line    0x00003a07      0x294 ./Lib/CMSIS/Device/system_stm32f0xx.o
+ .debug_line    0x00000095      0x9f9 ./Src/main.o
+ .debug_line    0x00000a8e      0x5ac ./Src/stm32f0xx_it.o
+ .debug_line    0x0000103a      0x69b ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o
+ .debug_line    0x000016d5      0x6ed ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o
+ .debug_line    0x00001dc2      0x6e7 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o
+ .debug_line    0x000024a9      0x725 ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o
+ .debug_line    0x00002bce      0x68e ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o
+ .debug_line    0x0000325c      0x7ae ./Lib/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o
+ .debug_line    0x00003a0a      0x294 ./Lib/CMSIS/Device/system_stm32f0xx.o
 
 .debug_info     0x00000000     0x7ea1
  .debug_info    0x00000000       0x22 ./Startup/startup_stm32f042x6.o
